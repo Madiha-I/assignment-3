@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+body{
+    font-family: open sans;
+    background-color: white;
+    margin: 0px;
+}
+
+hr{
+    width:30px;
+    color: #19b463;
+    display: inline-block;
+}
+
+.circular{
+    width: 40px;
+    padding: 0px 10px 0px 10px;
+}
+
+.circular-logo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*HEADER*/
+
+header{
+    background-color: #316dc3;
+    color: white;
+    font-size: 14px;
+    padding: 8px 0px 8px 0px;  
+}
+
+header img{
+    width: 12px;
+    padding: 10px 12px 10px 12px;
+    vertical-align: middle;
+}
+
+.social{
+    padding: 0px 100px 0px 100px; 
+}
+
+header img:hover{
+    background-color: #316dd9;
+    cursor: pointer;
+}
+.tagline{
+    padding: 0px 30px 0px 30px;
+}
+
+header button{
+    background-color: #f5f5f5;
+    padding: 6px 8px 6px 8px;
+    border: 1px solid grey;
+    font-family: open sans;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.h-link{
+    padding: 0px 100px 0px 100px; 
+}
+
+/*NAVIGATION*/
+
+nav{
+    background-color: #f7f8fa;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    border: 1px solid #f0f0f0;
+    font-size: 13px;
+    padding: 5px;
+}
+
+nav img{
+    width: 195px;
+    height: 55px;
+    padding: 5px 100px 5px 100px;
+}
+
+nav ul{
+   padding: 0px 100px 0px 100px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 8px 15px 8px 15px;
+}
+
+nav .active, nav li:hover{
+    background-color: #316dc3;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    animation: ease-in-out;
+}
+
+.drop-down{
+    display: none;
+}
+
+nav li:hover .drop-down{
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    color: black;
+}
+
+nav li:hover .drop-down ul{
+    display: inline-block;
+    margin: 5px;
+}
+
+.drop-down li:hover{
+    background-color: #316dc3;
+    color: white;
+}
+
+/*PICTURE SLIDE SHOW*/
+
+.banner img{
+    width: 100%;
+}
+
+.banner marquee{
+    background-color:#316dc3;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    margin: 2px 80px 7px 80px;
+}
+
+.dated{
+    color:#19b463 ;
+}
+.detail{
+    color: #0109fa;
+}
+
+/*INTRODUCTION*/
+
+.introduction{
+    line-height: 1.9em;
+    word-spacing: 0.1em;
+    padding: 50px 200px 50px 200px;
+    background-color: #f7f8fa;
+    color: #686766;
+    font-size: 14px;
+}
+
+.heading{
+    text-align: center;
+    margin: 15px;
+    font-family: 'Merriweather', serif;
+}
+
+.front{
+    color: #316dc3;
+}
+
+.back{
+    color: #427900;
+}
+
+.introduction p{
+    text-align: justify;
+}
+
+.count{
+    background-color: #2755e9;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    height: 350px;
+    color: white;
+    text-align: center;
+}
+
+.each-count{
+    float: left;
+    margin-top: 80px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.each-count img{
+    width: 40px;
+}
+
+.big-count{
+    font-size: 45px;
+}
+
+.monthly{
+    color: #01ff00;
+    font-size: 15px;
+}
+
+/*WORK*/
+
+.work{
+    clear: left;
+    text-align: center;
+    background-color: #f7f8fa;
+    padding:50px 0px 50px 0px;
+}
+
+.box{
+    width: 320px;
+    margin: 10px;
+    padding: 35px 20px 40px 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 15px #f0f0f0;
+    display: inline-block;
+}
+
+.box img{
+    width:70px;
+    padding: 5px 0px 10px 0px;
+}
+
+.box a{
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #0066b3;
+}
+
+/*MISSION AND UPCOMING*/
+
+.mission{
+    font-family: 'Merriweather', serif;
+    color: #0066b3;
+    float: left;
+    width: 750px;
+    padding-left: 100px;
+    margin-top:35px;
+    margin-right:30px;
+    vertical-align: middle;
+}
+
+.mission-box{
+    float: left;
+    width: 350px;
+    height: 70px;
+    background-color: #f7f8fa;
+    margin: 10px 20px 10px 0px;
+    border: 1px solid #f0f0f0;
+}
+
+.mission-box img{
+    width: 30px;
+    height: 30px;
+    padding: 20px 10px 5px 10px;
+}
+
+
+.mission-box a{
+    text-decoration: none;
+    color: #0066b3;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 20px 10px 5px 10px;
+}
+
+.events{
+    margin-top:35px;
+    font-family: 'Merriweather', serif;
+    color: #0066b3;
+    float: left;
+    width: 300px;
+}
+
+.events marquee{
+    font-family: open sans;
+    color: #686766;
+    font-size: 14px;
+}
+
+.events span{
+    color: blue;
+}
+
+/*IMAGE GALLERY*/
+.gallery{
+    background-color: white;
+    clear: both;
+    text-align: center;
+    padding: 100px 0px 120px 0px;
+}
+
+.pictures img{
+    width:230px;
+    padding: 20px 0px 0px 0px;
+}
+
+.contact{
+    display: flex;
+    background-color: #25272e;
+    color: 	#babbbb;
+    padding: 65px 100px 65px 100px;
+    font-size: 14px;
+}
+
+.info img{
+    width: 12px;
+    color: #427900;
+}
+
+.gray{
+    width: 300px;
+    color: #f0f0f0;
+}
+
+.useful-links{
+    font-family: 'Merriweather', serif;
+    color: white;
+    margin:0px 50px 0px 50px;
+}
+
+.connect{
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+.connect img{
+    width: 15px;
+    padding: 10px;
+    margin: 5px;
+    background-color:#316dc3;
+    border-radius: 100%;
+}
+
+.connect img:hover{
+    cursor: pointer;
+    background-color: #316dd9;
+}
+
+footer{
+    background-color: 	#316dd9;
+    padding: 15px 100px 15px 100px;
+    color: white;
+    font-size: 11px;
+}
+
+@media(max-width:1200px)
+{
+    .each-count{
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+
+    .box
+    {
+        width: 280px;
+    }
+}
+
+@media(max-width:992px)
+{
+    .introduction{
+        padding: 50px 100px 50px 100px;
+    }
+
+    .count{
+        height: 500px;
+        text-align: center;
+    }
+
+    .each-count{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .box
+    {
+        width: 320px;
+    }
+
+    .contact
+    {
+        display: block;
+    }
+
+    .useful-links
+    {
+        margin:0px ;
+    }
+
+    .mission{
+        padding-left: 50px;
+    }
+    
+    .events
+    {
+        padding-left: 50px;
+    }
+    
+}
+
+@media(max-width:768px)
+{
+    .introduction{
+        padding: 50px 50px 50px 50px;
+    }
+
+    .count{
+        height: 500px;
+    }
+
+    .each-count{
+        margin-top: 10px;
+        margin-left: 10px;
+        display: block;
+    }
+
+    .box
+    {
+        width: 90%;
+        margin: 15px;
+    }
+
+    .mission{
+        padding-left: 20px;
+    }
+
+    .mission-box{
+        width: 90%;
+    }
+    
+    .events
+    {
+        padding-left: 20px;
+    }
+    
+}
+
+@media(max-width:576px)
+{
+    .box
+    {
+        width: 350px;
+    }
+
+    .mission-box{
+        width: 400px;
+    }
+
+    .pictures img{
+        width:90%
+    }
+    
+}
